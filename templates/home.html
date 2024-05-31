@@ -1,0 +1,15 @@
+<h1>SMS classifier</h1>
+
+<body>
+    <form method="post">
+        <label for="input_data">Enter Data:</label><br>
+        <input type="text" id="input_data" name="input_data">
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+    {% if data %}
+        <h1>Result: {{ data }}</h1>
+    {% endif %}
+</body>
+
